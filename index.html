@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div class="flex-container">
+            <input type="text" id="taskInput" placeholder="Add a New Task..." />
+            <div class="flex-btns">
+                <button class="add-btn" id="addTaskBtn">Add Task</button>
+                <button class="clearTasks-btn" id="clearTasksBtn" style="display: none;">Clear All Tasks</button>
+            </div>
+        </div>
+        <div class="flex-container">
+            <input type="text" id="searchInput" style="display: none;" placeholder="Search tasks..." />
+            <select id="filterTasks" style="display: none;">
+                <option value="all">All Tasks</option>
+                <option value="completed">Completed Tasks</option>
+                <option value="active">Active Tasks</option>
+            </select>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>

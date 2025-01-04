@@ -1,0 +1,109 @@
+/* Base styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  :root {
+    --color-primary: #28a745 !important;
+    --color-hover-primary: #12912f;
+    --color-secondary: #007bff !important;
+    --color-hover-secondary: #0064cf !important;
+    --color-white: #ffffff;
+    --color-off-white: #f4f4f4;
+    --color-gray: gray;
+    --color-red: #dc3545;
+    --color-hover-red: #c82333;
+    --color-border: #ccc !important;
+    --shadow-color: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    background-color: var(--color-white);
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: var(--color-off-white);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--shadow-color);
+  }
+  h1 {
+    text-align: center;
+  }
+  .flex-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* Input and button styles */
+  input[type="text"], select {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+  }
+  .flex-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+  }
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    color: var(--color-off-white);
+  }
+  .add-btn, .clearTasks-btn {
+    background-color: var(--color-primary);
+  }
+  .add-btn:hover, .clearTasks-btn:hover {
+    background-color: var(--color-hover-primary);
+  }
+  .edit-btn {
+    background-color: var(--color-secondary);
+  }
+  .edit-btn:hover {
+    background-color: var(--color-hover-secondary);
+  }
+  .delete-btn {
+    background-color: var(--color-red);
+  }
+  .delete-btn:hover {
+    background-color: var(--color-hover-red);
+  }
+  .complete-btn {
+    background-color: var(--color-primary);
+  }
+  .complete-btn:hover {
+    background-color: var(--color-hover-primary);
+  }
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: var(--color-gray);
+}
+
+/* Responsive styles */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
