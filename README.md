@@ -4,7 +4,6 @@
 # Table of Contents
 ### Features
 ### Technologies Used
-### Installation
 ### Usage
 ### Contributing
 ### License
