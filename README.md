@@ -2,6 +2,10 @@
 #### Welcome to my website! This project is a simple web application built using HTML, CSS, and JavaScript. It showcases my skills in front-end development and serves as a portfolio piece.
 <img src="./assets/images/todo-list.png" alt="todo-list" />
 
+# Live Demo
+
+#### [View the live demo](https://my-todo-list-said.vercel.app)
+
 # Table of Contents
 ### Features
 ### Technologies Used
