@@ -3,7 +3,6 @@
 <img src="./assets/images/todo-list.png" alt="todo-list" />
 
 # Live Demo
-
 #### [View the live demo](https://my-todo-list-said.vercel.app)
 
 # Table of Contents
